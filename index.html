@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4fdcc124bf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>SpotifyDev - Music</title>
+</head>
+<body>
+     <div class="container">
+        <nav class= "sidebar">
+            <div class="nav-logo">
+                <i class="fa-brands fa-spotify"></i>
+            </div>
+            <div class="nav-library">
+                <i class="fa-solid fa-book"></i>
+                <p>Sua Biblioteca +</p>
+            </div>
+            <div class="nav-playlist">
+                <h5>Crie sua Primeira Playlist</h5>
+                <p>É fácil e rápido!</p>
+                <button>CRIAR PLAYLIST</button>
+            </div>
+            <div class="nav-podcast">
+                <h5>Que tal Seguir um Podcast</h5>
+                <p>Avisaremos quando tivermos novidades!</p>
+                <button>EXPLORAR PODCASTS</button>  
+            </div>
+            <div class="nav-footer">
+                <a href="#">Privacidade</a>
+                <a href="#">Termos</a>
+                <a href="#">Ajuda</a>
+            </div>
+            <button class="nav-lang-button">
+                <i class="fa-solid fa-globe"></i>
+                Português (Brasil)
+            </button>
+        </nav>
+        <main>
+            <header class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input placeholder="O que você quer ouvir?">
+            </header>
+            <section class="content">
+                <h2>Artistas Populares</h2>
+                <div class="artist-grid">
+                    <!-- Artistas serão adicionados aqui dinamicamente -->
+                </div>
+
+                <h2>Álbuns Populares</h2>
+                <div class="album-grid">
+                    <!-- Álbuns serão adicionados aqui dinamicamente -->
+                </div>
+            </section>
+        </main>
+     </div>
+     <div class="banner">
+        <h2>testar o premium de graça</h2>
+        <p>Desfrute de milhões de músicas sem anúncios</p>
+        <button class="banner-button">Inscreva-se já</button>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>
